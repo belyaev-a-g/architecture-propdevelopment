@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
   <diagram name="Страница-1" id="kmp6LRTEvJA8-iVu2xC8">
-    <mxGraphModel dx="2097" dy="3240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2562" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,6 +275,36 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="570" y="950" as="sourcePoint" />
             <mxPoint x="620" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Данные для работы с госорганами" vertex="1">
+          <mxGeometry height="70" width="120" x="740" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Сделки с недвижимостью и другие платежи" vertex="1">
+          <mxGeometry height="70" width="120" x="785" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Утечка данных&lt;br&gt;(критический)" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve-breaks;&quot;&gt;Кража финансовой информации может привести к финансовым потерям компании и клиентов&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="370" x="1090" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-72" edge="1" parent="1" source="m7xLlAsWuFV9JOQqOrNl-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="m7xLlAsWuFV9JOQqOrNl-68" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1120" y="800" as="sourcePoint" />
+            <mxPoint x="1170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-73" edge="1" parent="1" source="m7xLlAsWuFV9JOQqOrNl-70" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="m7xLlAsWuFV9JOQqOrNl-71" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1120" y="800" as="sourcePoint" />
+            <mxPoint x="1170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7xLlAsWuFV9JOQqOrNl-74" edge="1" parent="1" source="m7xLlAsWuFV9JOQqOrNl-68" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="m7xLlAsWuFV9JOQqOrNl-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="865" y="760" as="sourcePoint" />
+            <mxPoint x="915" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
